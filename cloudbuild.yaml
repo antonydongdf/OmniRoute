@@ -9,3 +9,5 @@ steps:
       - 'DOCKER_BUILDKIT=1'
 images:
   - 'gcr.io/$PROJECT_ID/omniroute'
+
+# Enable BuildKit for Cloud Run deployment
